@@ -1,0 +1,18 @@
+﻿  main.c
+D:\Malware Development\maldev academy\EarlyBird\EarlyBird\main.c(69,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SIZE_T'
+D:\Malware Development\maldev academy\EarlyBird\EarlyBird\main.c(69,9): message : consider using '%lld' in the format string
+D:\Malware Development\maldev academy\EarlyBird\EarlyBird\main.c(69,9): message : consider using '%Id' in the format string
+D:\Malware Development\maldev academy\EarlyBird\EarlyBird\main.c(69,9): message : consider using '%I64d' in the format string
+D:\Malware Development\maldev academy\EarlyBird\EarlyBird\main.c(55,9): warning C4047: 'initializing': 'SIZE_T' differs in levels of indirection from 'void *'
+D:\Malware Development\maldev academy\EarlyBird\EarlyBird\main.c(56,8): warning C4047: 'initializing': 'DWORD' differs in levels of indirection from 'void *'
+D:\Malware Development\maldev academy\EarlyBird\EarlyBird\main.c(113,82): warning C4133: 'function': incompatible types - from 'STARTUPINFO *' to 'LPSTARTUPINFOA'
+D:\Malware Development\maldev academy\EarlyBird\EarlyBird\main.c(133,19): warning C4047: '!=': 'DWORD' differs in levels of indirection from 'void *'
+D:\Malware Development\maldev academy\EarlyBird\EarlyBird\main.c(163,38): warning C4113: 'PTHREAD_START_ROUTINE' differs in parameter lists from 'PAPCFUNC'
+D:\Malware Development\maldev academy\EarlyBird\EarlyBird\main.c(163,57): warning C4047: 'function': 'ULONG_PTR' differs in levels of indirection from 'void *'
+D:\Malware Development\maldev academy\EarlyBird\EarlyBird\main.c(163,57): warning C4024: 'QueueUserAPC': different types for formal and actual parameter 3
+D:\Malware Development\maldev academy\EarlyBird\EarlyBird\main.c(142,8): warning C4047: 'initializing': 'DWORD' differs in levels of indirection from 'void *'
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 10 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  EarlyBird.vcxproj -> D:\Malware Development\maldev academy\EarlyBird\x64\Release\EarlyBird.exe
